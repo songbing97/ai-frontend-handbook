@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "vitepress dev docs NODE_ENV=development",
+    "build": "vitepress build docs NODE_ENV=product",
     "preview": "vitepress preview docs"
   }
 }
