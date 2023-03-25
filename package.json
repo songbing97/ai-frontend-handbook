@@ -3,5 +3,8 @@
     "dev": "vitepress dev docs NODE_ENV=development",
     "build": "vitepress build docs NODE_ENV=product",
     "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.61"
   }
 }
