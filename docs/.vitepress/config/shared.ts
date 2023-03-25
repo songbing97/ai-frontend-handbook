@@ -6,7 +6,7 @@ export const META_DESCRIPTION = 'An answer Collection of Frontend powered by Cha
 
 export const sharedConfig = defineConfig({
   // deploy address
-  base: process.env.NODE_ENV === 'production' ? 'https://songbing76.github.io/chatgpt-interview-answers/' : '',
+  base: process.env.NODE_ENV === 'production' ? 'https://songbing97.github.io/chatgpt-interview-answers/' : '',
   title: META_TITLE,
   description: META_DESCRIPTION,
   themeConfig: {
