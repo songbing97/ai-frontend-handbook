@@ -20,7 +20,7 @@ export const sharedConfig = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/pinia/edit/v2/packages/docs/:path',
+      pattern: 'https://github.com/songbing97/chatgpt-interview-answers/edit/master/docs/:path',
       text: 'Suggest changes to this page',
     },
 
