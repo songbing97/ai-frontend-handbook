@@ -5,6 +5,8 @@ export const META_TITLE = 'Frontend Handbook'
 export const META_DESCRIPTION = 'An answer Collection of Frontend powered by ChatGPT.'
 
 export const sharedConfig = defineConfig({
+  // deploy address
+  base: 'https://songbing76.github.io/chatgpt-interview-answers/',
   title: META_TITLE,
   description: META_DESCRIPTION,
   themeConfig: {
