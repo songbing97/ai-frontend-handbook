@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export const META_IMAGE = 'https://pinia.vuejs.org/social.png'
-export const META_TITLE = 'Frontend Handbook'
+export const META_TITLE = 'AI Frontend Handbook'
 export const META_DESCRIPTION = 'An answer Collection of Frontend powered by ChatGPT.'
 
 export const sharedConfig = defineConfig({

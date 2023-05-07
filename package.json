@@ -4,7 +4,9 @@
     "build": "vitepress build docs NODE_ENV=product",
     "preview": "vitepress preview docs"
   },
-  "devDependencies": {
-    "vitepress": "^1.0.0-alpha.61"
+  "dependencies": {
+    "@vue/repl": "^1.4.0",
+    "vitepress": "^1.0.0-alpha.61",
+    "vue": "^3.2.47"
   }
 }

@@ -9,14 +9,26 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     nav: [
       { text: 'Learn', link: '/learn/' },
       { text: 'Interview', link: '/interview/' },
+      { text: 'Code', link: '/code/' },
       // { text: 'Full-Stack', link: '/full-stack/' },
     ],
 
     sidebar: {
       '/learn/': [
         {
-          text: 'Learning Chapters',
-          link: '/learn/'
+          text: 'Guide',
+          link: '/learn/',
+          collapsed: false,
+          items: [
+            {
+              text: 'Chapters',
+              link: '/learn/guide/chapters',
+            },
+            {
+              text: 'Concepts',
+              link: '/learn/guide/concepts',
+            }
+          ]
         },
         {
           text: 'HTML',
@@ -250,6 +262,22 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           text: 'Help Center',
           link: '/help-center'
         }
+      ],
+      '/code': [
+        {
+          text: 'Basic',
+          items: [
+            {
+              text: 'Hello World',
+              link: '/code/#hello-world'
+            },
+            {
+              text: 'animation',
+              link: '/code/animation'
+            }
+          ]
+        },
+
       ]
     },
   }

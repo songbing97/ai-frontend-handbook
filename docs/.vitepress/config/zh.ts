@@ -9,6 +9,8 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       pattern: 'https://github.com/songbing/frontend-Handbook/edit/master/docs/:path',
       text: '帮助我们改善此页面'
     },
+    outlineTitle: '本页内容',
+    
     nav: [
       { text: '学习', link: '/zh/learn/' },
       { text: '面试', link: '/zh/interview/' }
