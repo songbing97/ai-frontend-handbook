@@ -5,7 +5,7 @@
 - [模块化](module.md)
 - [错误处理](error.md)
 - [正则表达式](regexp.md)
-- [函数式编程](functional.md)
+- [其他](other.md)
 - [JavaScript（基础篇）](../index0.md)
 
 ## 哪些属于JavaScript高级？

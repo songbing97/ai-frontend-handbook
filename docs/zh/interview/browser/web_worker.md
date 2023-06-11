@@ -52,7 +52,6 @@ Web Worker 的特点包括：
 然后，你需要在与 HTML 文件相同的目录下创建一个名为 worker.js 的 JavaScript 文件，作为 Web Worker 的代码：
 
 ```javascript
-Copy code
 // worker.js
 
 // 接收消息
@@ -73,6 +72,6 @@ function calculate() {
   return "这是计算结果";
 }
 ```
-在上述示例中，当点击 "开始计算" 按钮时，会向 Web Worker 发送一个消息。Web Worker 接收到消息后，会执行耗时的计算任务，并将结果通过 postMessage() 方法发送回主线程。主线程接收到消息后，会更新页面中的 <p> 元素，显示计算结果。
+在上述示例中，当点击 "开始计算" 按钮时，会向 Web Worker 发送一个消息。Web Worker 接收到消息后，会执行耗时的计算任务，并将结果通过 postMessage() 方法发送回主线程。主线程接收到消息后，会更新页面中的 \<p\> 元素，显示计算结果。
 
 需要注意的是，Web Worker 的代码和主线程的代码是分开的，它们不能直接访问对方的变量和函数。它们之间的通信通过消息传递来完成。主线程通过 worker.postMessage() 发送消息给 Web Worker，Web Worker 通过 self.postMessage() 发送消息给主线程，通过绑定 worker.onmessage 或 self.onmessage 来接收消息。

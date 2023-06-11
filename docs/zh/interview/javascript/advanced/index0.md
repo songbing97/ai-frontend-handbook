@@ -13,7 +13,7 @@
 - [工具和任务运行器](tools.md)
 - [JavaScript的未来](future.md)
 - [其他](other.md)
-- [JavaScript（面试高频篇）](./advanced/index.md)
+- [JavaScript（面试高频篇）](../index0.md)
 ## 我准备面试高级前端工程师，请你帮你列出50个最可能被忽略的JavaScript面试问题，并对它们进行分类。
 以下是一些可能被忽略的、对高级前端工程师来说重要的JavaScript面试问题：
 

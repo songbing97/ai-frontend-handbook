@@ -64,10 +64,10 @@ CMD ["python", "app.py"]
 ```
 To build an image from a Dockerfile, you can use the docker build command followed by the path to the directory containing the Dockerfile:
 ```docker
-docker build -t <image-name> .
+docker build -t \<image-name\> .
 ```
 
-In this example, replace <image-name> with the name you want to give to the image. Finally, the . specifies the build context, which is the directory containing the Dockerfile and any files referenced in it.
+In this example, replace \<image-name\> with the name you want to give to the image. Finally, the . specifies the build context, which is the directory containing the Dockerfile and any files referenced in it.
 
 Overall, Dockerfiles provide a powerful and flexible way to automate the creation of Docker images and simplify the process of deploying applications.
 
@@ -98,8 +98,8 @@ Using Dockerfile:
 
 1. Create a text file called Dockerfile in the root directory of your application.
 2. Add the necessary commands and arguments to the Dockerfile to define your application's environment, dependencies, and software.
-3. Use the docker build command followed by the path to the directory containing the Dockerfile to build an image. For example: docker build -t <image-name> .
-4. Run a container from the created image using the docker run command. For example: docker run -p 8080:80 <image-name>
+3. Use the docker build command followed by the path to the directory containing the Dockerfile to build an image. For example: docker build -t \<image-name\> .
+4. Run a container from the created image using the docker run command. For example: docker run -p 8080:80 \<image-name\>
 
 Using Docker Compose:
 
@@ -120,7 +120,7 @@ There are two types of volumes in Docker: named volumes and host-mounted volumes
 Volumes can be specified in the docker run command using the -v option, or in a Docker Compose file using the volumes section. For example:
 
 ```sh
-docker run -v /path/on/host:/path/in/container <image-name>
+docker run -v /path/on/host:/path/in/container \<image-name\>
 ```
 This command mounts the directory /path/on/host on the host system to the directory /path/in/container in the container.
 
@@ -137,7 +137,7 @@ Here are some of the most commonly used Docker commands related to volumes:
 
 4. docker volume rm: This command removes one or more named volumes from the host machine.
 
-5. docker run -v: This option attaches a named or host-mounted volume to a container at runtime. For example: docker run -v my-volume:/path/in/container <image-name>.
+5. docker run -v: This option attaches a named or host-mounted volume to a container at runtime. For example: docker run -v my-volume:/path/in/container \<image-name\>.
 
 6. docker-compose volumes: In a Docker Compose file, this section defines named volumes and their configuration options.
 
@@ -152,10 +152,10 @@ Inside the MobyLinuxVM, volumes are stored in the /var/lib/docker/volumes direct
 
 However, you can still access the contents of a volume from the host machine by using the docker cp command to copy files or directories to and from the container. For example:
 ```bash
-docker cp <container-id>:/path/in/container /path/on/host
+docker cp \<container-id\>:/path/in/container /path/on/host
 ```
 
-This command copies the contents of the directory /path/in/container inside the container with ID <container-id> to the directory /path/on/host on the host machine.
+This command copies the contents of the directory /path/in/container inside the container with ID \<container-id\> to the directory /path/on/host on the host machine.
 
 Overall, while volumes are stored within the MobyLinuxVM in the Windows version of Docker, they can still be accessed and managed from the host machine using Docker commands.
 

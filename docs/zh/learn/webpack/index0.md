@@ -9,7 +9,7 @@
 - [代码分割（Code Splitting）](code_split.md)
 - [模块解析和别名](alias.md)
 - [资源管理和优化](resource_manage.md)
-- [Webpack（高级篇）](./advanced/index.md)
+- [Webpack（高级篇）](./advanced/index0.md)
 
 ## 什么是Webpack？
 Webpack 是一个开源的前端模块打包工具，用于构建现代化的 JavaScript 应用程序。它主要用于将多个 JavaScript 文件及其依赖项转换为一个或多个静态资源（通常是一个或多个打包后的 JavaScript 文件），以便在浏览器中加载。

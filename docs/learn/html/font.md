@@ -6,11 +6,11 @@ Websites can use external fonts by referencing the font files hosted on a separa
 ## could you explain it by code?
 Sure! Here's an example of how a website can use an external font in its CSS code:
 
-1. First, you need to link to the font file in your HTML document using the <link> tag. This should be placed in the <head> section of your HTML. Here's an example:
+1. First, you need to link to the font file in your HTML document using the \<link\> tag. This should be placed in the \<head\> section of your HTML. Here's an example:
 ```html
-<head>`
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
+\<head\>`
+  \<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"\>
+\</head\>
 ```
 In this example, we're linking to the "Open Sans" font hosted by Google Fonts.
 

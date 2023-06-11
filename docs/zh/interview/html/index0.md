@@ -6,7 +6,7 @@
 - [链接和资源](link.md)
 - [表格和表单](table.md)
 - [可访问性](access.md)
-- [HTML（面试细节篇）](./advanced/index.md)
+- [HTML（面试细节篇）](./advanced/index0.md)
 
 ## 我要准备面试了，请给出最常见的30个HTML的面试问题。
 当然，以下是最常见的30个HTML面试问题：

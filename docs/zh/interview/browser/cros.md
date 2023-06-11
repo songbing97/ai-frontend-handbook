@@ -15,7 +15,7 @@
 
 要在跨域请求时进行合法的访问，可以使用以下方法：
 
-1. JSONP（JSON with Padding）：通过动态创建<script>标签来加载跨域的JavaScript资源，并在请求参数中传递回调函数。
+1. JSONP（JSON with Padding）：通过动态创建\<script\>标签来加载跨域的JavaScript资源，并在请求参数中传递回调函数。
 2. CORS（Cross-Origin Resource Sharing）：通过服务器设置响应头部，允许指定域名的请求访问资源。
 3. 代理服务器：通过在自己的服务器上创建代理，将跨域请求转发到目标服务器并返回结果。
 

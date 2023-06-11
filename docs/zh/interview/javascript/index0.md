@@ -8,7 +8,7 @@
 - [ES6及其以上的新特性](es6.md)
 - [DOM操作和浏览器API](dom.md)
 - [高级主题](advance.md)
-- [JavaScript（面试细节篇）](./advanced/index.md)
+- [JavaScript（面试细节篇）](./advanced/index0.md)
 
 ## 我要准备面试了，请给出最常见的50个的JavaScript面试问题，并且分类。
 以下是将这些问题转换为有序列表的版本：
