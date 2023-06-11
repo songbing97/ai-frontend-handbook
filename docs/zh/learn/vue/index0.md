@@ -3,10 +3,14 @@
 - [响应式系统](reactivity.md)
 - [虚拟DOM](virtual_dom.md)
 - [编译器](compiler.md)
-- [实例化](instance.md)
 - [组件系统](component.md)
 - [指令](directive.md)
 - [插件系统](plugin.md)
+
+:::tip 提示
+- 由于Vue官网对于基础内容已经十分详细，所以本手册只会涉及原理和源码。
+- 请先阅读基础教程https://cn.vuejs.org/
+  :::
 
 ## 什么是Vue?
 Vue是一个流行的JavaScript前端框架，用于构建用户界面。它是一个开源项目，由Evan You于2014年创建。Vue的目标是通过简单易用的API和响应式数据绑定，使构建交互性的Web界面变得更加简单。
