@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as o,N as e}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"盒模型","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/box.md"}'),a={name:"zh/learn/css/box.md"},p=e("",32),r=[p];function t(d,n,c,s,h,u){return i(),o("div",null,r)}const g=l(a,[["render",t]]);export{_ as __pageData,g as default};

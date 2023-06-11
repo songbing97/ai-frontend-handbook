@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"DOM操作","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/javascript/dom.md"}'),o={name:"zh/learn/javascript/dom.md"},e=l("",14),p=[e];function t(c,r,D,y,C,F){return a(),n("div",null,p)}const d=s(o,[["render",t]]);export{i as __pageData,d as default};

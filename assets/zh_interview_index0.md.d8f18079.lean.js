@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,N as i}from"./chunks/framework.c893c7c5.js";const f=JSON.parse('{"title":"面试问题章节","description":"","frontmatter":{},"headers":[],"relativePath":"zh/interview/index0.md"}'),r={name:"zh/interview/index0.md"},n=i("",20),l=[n];function o(p,s,h,c,d,_){return a(),t("div",null,l)}const u=e(r,[["render",o]]);export{f as __pageData,u as default};

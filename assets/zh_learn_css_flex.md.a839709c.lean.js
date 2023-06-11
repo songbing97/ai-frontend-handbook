@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as a,N as o}from"./chunks/framework.c893c7c5.js";const C=JSON.parse('{"title":"弹性盒子布局","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/flex.md"}'),n={name:"zh/learn/css/flex.md"},p=o("",26),e=[p];function c(t,r,i,D,F,y){return l(),a("div",null,e)}const A=s(n,[["render",c]]);export{C as __pageData,A as default};

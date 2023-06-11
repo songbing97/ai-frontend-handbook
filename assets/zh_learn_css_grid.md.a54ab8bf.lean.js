@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as a,N as o}from"./chunks/framework.c893c7c5.js";const C=JSON.parse('{"title":"网格布局","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/grid.md"}'),p={name:"zh/learn/css/grid.md"},n=o("",29),e=[n];function t(c,r,i,d,D,F){return l(),a("div",null,e)}const g=s(p,[["render",t]]);export{C as __pageData,g as default};

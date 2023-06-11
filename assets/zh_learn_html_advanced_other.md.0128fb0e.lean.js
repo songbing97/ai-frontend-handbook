@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as p,N as i}from"./chunks/framework.c893c7c5.js";const M=JSON.parse('{"title":"其他","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/html/advanced/other.md"}'),l={name:"zh/learn/html/advanced/other.md"},t=i("",41),o=[t];function r(s,n,c,h,S,b){return e(),p("div",null,o)}const A=a(l,[["render",r]]);export{M as __pageData,A as default};

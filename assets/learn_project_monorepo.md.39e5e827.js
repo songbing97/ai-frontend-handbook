@@ -1,0 +1,1 @@
+import{_ as e,o,c as t}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/project/monorepo.md"}'),r={name:"learn/project/monorepo.md"};function a(n,c,p,s,m,_){return o(),t("div")}const l=e(r,[["render",a]]);export{i as __pageData,l as default};

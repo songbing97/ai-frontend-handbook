@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/interview/javascript/advanced/frame.md"}'),r={name:"zh/interview/javascript/advanced/frame.md"};function c(n,s,o,i,d,p){return a(),t("div")}const f=e(r,[["render",c]]);export{_ as __pageData,f as default};

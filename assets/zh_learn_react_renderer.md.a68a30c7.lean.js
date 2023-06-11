@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,N as r}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"渲染器（Renderer）","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/react/renderer.md"}'),c={name:"zh/learn/react/renderer.md"},o=r("",15),n=[o];function i(l,s,p,D,R,O){return t(),a("div",null,n)}const h=e(c,[["render",i]]);export{d as __pageData,h as default};

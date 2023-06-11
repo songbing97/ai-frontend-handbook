@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"数组","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/javascript/array.md"}'),p={name:"zh/learn/javascript/array.md"},o=l("",7),e=[o];function t(c,r,y,D,A,F){return a(),n("div",null,e)}const f=s(p,[["render",t]]);export{i as __pageData,f as default};

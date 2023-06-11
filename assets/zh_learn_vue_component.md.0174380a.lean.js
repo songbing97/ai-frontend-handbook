@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,N as r}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"组件系统","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/vue/component.md"}'),p={name:"zh/learn/vue/component.md"},a=r("",22),n=[a];function i(s,l,u,V,c,g){return t(),o("div",null,n)}const D=e(p,[["render",i]]);export{d as __pageData,D as default};

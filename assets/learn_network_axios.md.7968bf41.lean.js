@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.c893c7c5.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/network/axios.md"}'),o={name:"learn/network/axios.md"};function r(n,s,c,i,p,_){return t(),a("div")}const m=e(o,[["render",r]]);export{l as __pageData,m as default};

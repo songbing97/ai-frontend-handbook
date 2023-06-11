@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,N as i}from"./chunks/framework.c893c7c5.js";const v=JSON.parse('{"title":"指令","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/vue/directive.md"}'),r={name:"zh/learn/vue/directive.md"},a=i("",16),n=[a];function l(p,s,c,d,u,V){return o(),t("div",null,n)}const g=e(r,[["render",l]]);export{v as __pageData,g as default};

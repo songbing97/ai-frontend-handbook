@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as e,N as t}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"Vue","description":"","frontmatter":{},"headers":[],"relativePath":"zh/interview/vue/index0.md"}'),o={name:"zh/interview/vue/index0.md"},a=t("",37),r=[a];function s(u,n,V,p,h,g){return i(),e("div",null,r)}const m=l(o,[["render",s]]);export{d as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as r,N as i}from"./chunks/framework.c893c7c5.js";const m=JSON.parse('{"title":"Learning Chapters","description":"","frontmatter":{},"headers":[],"relativePath":"learn/guide/chapters.md"}'),t={name:"learn/guide/chapters.md"},l=i("",3),s=[l];function h(o,n,c,p,_,d){return e(),r("div",null,s)}const u=a(t,[["render",h]]);export{m as __pageData,u as default};

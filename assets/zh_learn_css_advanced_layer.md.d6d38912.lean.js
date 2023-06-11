@@ -1,0 +1,1 @@
+import{_ as o,o as l,c as e,N as s}from"./chunks/framework.c893c7c5.js";const y=JSON.parse('{"title":"图层","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/advanced/layer.md"}'),a={name:"zh/learn/css/advanced/layer.md"},p=s("",68),n=[p];function c(t,i,d,r,C,F){return l(),e("div",null,n)}const h=o(a,[["render",c]]);export{y as __pageData,h as default};

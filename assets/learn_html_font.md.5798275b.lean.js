@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o,N as t}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"font","description":"","frontmatter":{},"headers":[],"relativePath":"learn/html/font.md"}'),a={name:"learn/html/font.md"},n=t("",17),l=[n];function p(i,r,c,f,h,d){return s(),o("div",null,l)}const m=e(a,[["render",p]]);export{u as __pageData,m as default};

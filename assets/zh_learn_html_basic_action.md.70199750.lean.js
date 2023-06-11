@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as a,N as n}from"./chunks/framework.c893c7c5.js";const C=JSON.parse('{"title":"基础实战","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/html/basic_action.md"}'),o={name:"zh/learn/html/basic_action.md"},p=n("",24),t=[p];function e(c,r,D,F,y,i){return l(),a("div",null,t)}const A=s(o,[["render",e]]);export{C as __pageData,A as default};

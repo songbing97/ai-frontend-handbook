@@ -1,0 +1,1 @@
+import{_ as e,o as i,c as o,N as a}from"./chunks/framework.c893c7c5.js";const w=JSON.parse('{"title":"跨域","description":"","frontmatter":{},"headers":[],"relativePath":"zh/interview/browser/cros.md"}'),l={name:"zh/interview/browser/cros.md"},r=a("",14),t=[r];function s(c,p,n,_,d,h){return i(),o("div",null,t)}const S=e(l,[["render",s]]);export{w as __pageData,S as default};

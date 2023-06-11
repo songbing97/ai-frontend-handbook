@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as a,N as o}from"./chunks/framework.c893c7c5.js";const g=JSON.parse('{"title":"基础内容","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/html/basic_theory.md"}'),t={name:"zh/learn/html/basic_theory.md"},p=o("",49),n=[p];function e(c,r,i,F,D,y){return l(),a("div",null,n)}const h=s(t,[["render",e]]);export{g as __pageData,h as default};

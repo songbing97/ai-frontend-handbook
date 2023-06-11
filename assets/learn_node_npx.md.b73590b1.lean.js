@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as n,N as t}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"npx","description":"","frontmatter":{},"headers":[],"relativePath":"learn/node/npx.md"}'),o={name:"learn/node/npx.md"},r=t("",4),i=[r];function h(s,c,d,m,l,p){return e(),n("div",null,i)}const u=a(o,[["render",h]]);export{_ as __pageData,u as default};

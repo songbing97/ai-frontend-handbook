@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/project/micro.md"}'),o={name:"learn/project/micro.md"};function a(c,n,s,p,i,m){return t(),r("div")}const l=e(o,[["render",a]]);export{d as __pageData,l as default};

@@ -1,0 +1,1 @@
+import{_ as e,o,c as l,N as u}from"./chunks/framework.c893c7c5.js";const h=JSON.parse('{"title":"插件系统","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/vue/plugin.md"}'),t={name:"zh/learn/vue/plugin.md"},a=u("",17),s=[a];function n(i,c,r,d,V,p){return o(),l("div",null,s)}const _=e(t,[["render",n]]);export{h as __pageData,_ as default};

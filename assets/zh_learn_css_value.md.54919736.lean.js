@@ -1,0 +1,1 @@
+import{_ as e,o,c,N as l}from"./chunks/framework.c893c7c5.js";const h=JSON.parse('{"title":"属性和值","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/value.md"}'),d={name:"zh/learn/css/value.md"},i=l("",11),a=[i];function p(t,r,n,s,S,u){return o(),c("div",null,a)}const m=e(d,[["render",p]]);export{h as __pageData,m as default};

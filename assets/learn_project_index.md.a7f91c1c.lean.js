@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,N as r}from"./chunks/framework.c893c7c5.js";const f=JSON.parse('{"title":"Project Manager","description":"","frontmatter":{},"headers":[],"relativePath":"learn/project/index.md"}'),t={name:"learn/project/index.md"},n=r("",3),c=[n];function i(d,s,_,l,h,p){return a(),o("div",null,c)}const u=e(t,[["render",i]]);export{f as __pageData,u as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as l,N as n}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"操作符","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/javascript/operate.md"}'),p={name:"zh/learn/javascript/operate.md"},o=n("",18),t=[o];function e(c,r,C,y,D,A){return a(),l("div",null,t)}const d=s(p,[["render",e]]);export{i as __pageData,d as default};

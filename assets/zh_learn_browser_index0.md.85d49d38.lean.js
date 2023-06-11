@@ -1,0 +1,1 @@
+import{_ as e,o as l,c as a,N as i}from"./chunks/framework.c893c7c5.js";const m=JSON.parse('{"title":"浏览器（基础篇）","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/browser/index0.md"}'),r={name:"zh/learn/browser/index0.md"},t=i("",9),o=[t];function s(p,h,c,n,S,d){return l(),a("div",null,o)}const f=e(r,[["render",s]]);export{m as __pageData,f as default};

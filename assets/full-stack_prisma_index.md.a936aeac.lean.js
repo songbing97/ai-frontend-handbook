@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as e,N as n}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"Prisma","description":"","frontmatter":{},"headers":[],"relativePath":"full-stack/prisma/index.md"}'),t={name:"full-stack/prisma/index.md"},o=n("",59),i=[o];function l(r,p,c,d,m,h){return s(),e("div",null,i)}const g=a(t,[["render",l]]);export{u as __pageData,g as default};

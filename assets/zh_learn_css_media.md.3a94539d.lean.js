@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"媒体查询","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/css/media.md"}'),p={name:"zh/learn/css/media.md"},o=l("",23),e=[o];function c(t,r,i,D,y,C){return a(),n("div",null,e)}const A=s(p,[["render",c]]);export{d as __pageData,A as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as n,N as e}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"transition","description":"","frontmatter":{},"headers":[],"relativePath":"learn/css/transition.md"}'),o={name:"learn/css/transition.md"},r=e("",3),i=[r];function s(c,_,l,h,d,m){return a(),n("div",null,i)}const f=t(o,[["render",s]]);export{u as __pageData,f as default};

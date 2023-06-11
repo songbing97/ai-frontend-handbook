@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,N as i}from"./chunks/framework.c893c7c5.js";const h=JSON.parse('{"title":"Golang","description":"","frontmatter":{},"headers":[],"relativePath":"full-stack/golang/index.md"}'),n={name:"full-stack/golang/index.md"},t=i("",18),r=[t];function s(l,c,d,p,g,u){return a(),o("div",null,r)}const f=e(n,[["render",s]]);export{h as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,N as i}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"Gitlab","description":"","frontmatter":{},"headers":[],"relativePath":"learn/project/gitlab.md"}'),n={name:"learn/project/gitlab.md"},o=i("",6),h=[o];function r(l,s,c,d,b,m){return e(),t("div",null,h)}const f=a(n,[["render",r]]);export{_ as __pageData,f as default};

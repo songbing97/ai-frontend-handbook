@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as n}from"./chunks/framework.c893c7c5.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/webpack/advanced/advanced_plugin.md"}'),t={name:"zh/learn/webpack/advanced/advanced_plugin.md"};function c(r,d,o,p,s,_){return a(),n("div")}const m=e(t,[["render",c]]);export{l as __pageData,m as default};

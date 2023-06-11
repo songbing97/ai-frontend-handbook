@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as o,N as e}from"./chunks/framework.c893c7c5.js";const I=JSON.parse('{"title":"AI春晚总结——程序员正在杀死程序员，讲讲我的看法","description":"","frontmatter":{},"headers":[],"relativePath":"blog/0325.md"}'),t={name:"blog/0325.md"},l=e("",7),p=[l];function r(n,c,s,_,h,d){return i(),o("div",null,p)}const m=a(t,[["render",r]]);export{I as __pageData,m as default};

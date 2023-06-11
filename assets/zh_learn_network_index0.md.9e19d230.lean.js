@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,N as l}from"./chunks/framework.c893c7c5.js";const T=JSON.parse('{"title":"网络（基础篇）","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/network/index0.md"}'),i={name:"zh/learn/network/index0.md"},r=l("",11),o=[r];function s(n,p,c,h,S,_){return a(),t("div",null,o)}const P=e(i,[["render",s]]);export{T as __pageData,P as default};

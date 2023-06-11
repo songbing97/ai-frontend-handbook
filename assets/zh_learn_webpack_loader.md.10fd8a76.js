@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/webpack/loader.md"}'),r={name:"zh/learn/webpack/loader.md"};function o(c,n,s,p,d,l){return a(),t("div")}const m=e(r,[["render",o]]);export{i as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,N as a}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"虚拟DOM","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/vue/virtual_dom.md"}'),r={name:"zh/learn/vue/virtual_dom.md"},i=a("",21),l=[i];function D(p,n,s,M,O,c){return o(),t("div",null,l)}const V=e(r,[["render",D]]);export{d as __pageData,V as default};

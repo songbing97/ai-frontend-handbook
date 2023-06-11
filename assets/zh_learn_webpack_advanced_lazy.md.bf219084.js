@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t}from"./chunks/framework.c893c7c5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/webpack/advanced/lazy.md"}'),r={name:"zh/learn/webpack/advanced/lazy.md"};function c(n,o,s,d,p,l){return a(),t("div")}const m=e(r,[["render",c]]);export{i as __pageData,m as default};

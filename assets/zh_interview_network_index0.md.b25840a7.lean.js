@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as t,N as o}from"./chunks/framework.c893c7c5.js";const g=JSON.parse('{"title":"网络","description":"","frontmatter":{},"headers":[],"relativePath":"zh/interview/network/index0.md"}'),e={name:"zh/interview/network/index0.md"},r=o("",29),a=[r];function n(s,p,T,c,P,h){return i(),t("div",null,a)}const d=l(e,[["render",n]]);export{g as __pageData,d as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,N as l}from"./chunks/framework.c893c7c5.js";const C=JSON.parse('{"title":"事件处理","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/javascript/event.md"}'),p={name:"zh/learn/javascript/event.md"},o=l("",16),e=[o];function t(c,r,D,F,y,i){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};

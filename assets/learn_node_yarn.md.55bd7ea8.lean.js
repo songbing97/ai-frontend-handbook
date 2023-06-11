@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as n,N as r}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"yarn","description":"","frontmatter":{},"headers":[],"relativePath":"learn/node/yarn.md"}'),t={name:"learn/node/yarn.md"},o=r("",6),h=[o];function i(c,s,d,l,m,y){return e(),n("div",null,h)}const _=a(t,[["render",i]]);export{u as __pageData,_ as default};

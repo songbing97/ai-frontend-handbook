@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r}from"./chunks/framework.c893c7c5.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/network/http.md"}'),a={name:"zh/learn/network/http.md"};function n(o,s,c,p,_,d){return e(),r("div")}const l=t(a,[["render",n]]);export{h as __pageData,l as default};

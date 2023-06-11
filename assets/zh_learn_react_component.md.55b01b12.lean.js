@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a,N as o}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"组件","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/react/component.md"}'),r={name:"zh/learn/react/component.md"},n=o("",18),c=[n];function p(s,i,l,R,g,h){return e(),a("div",null,c)}const D=t(r,[["render",p]]);export{_ as __pageData,D as default};

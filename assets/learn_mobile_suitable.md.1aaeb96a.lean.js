@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.c893c7c5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/mobile/suitable.md"}'),r={name:"learn/mobile/suitable.md"};function o(s,n,c,i,l,p){return t(),a("div")}const d=e(r,[["render",o]]);export{m as __pageData,d as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as n,N as t}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"pnpm","description":"","frontmatter":{},"headers":[],"relativePath":"learn/node/pnpm.md"}'),o={name:"learn/node/pnpm.md"},r=t("",6),m=[r];function h(p,i,c,s,d,l){return a(),n("div",null,m)}const _=e(o,[["render",h]]);export{u as __pageData,_ as default};

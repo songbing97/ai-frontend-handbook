@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,N as r}from"./chunks/framework.c893c7c5.js";const d=JSON.parse('{"title":"编译器","description":"","frontmatter":{},"headers":[],"relativePath":"zh/learn/vue/compiler.md"}'),o={name:"zh/learn/vue/compiler.md"},p=r("",17),i=[p];function s(l,n,u,c,V,h){return t(),a("div",null,i)}const S=e(o,[["render",s]]);export{d as __pageData,S as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as n,N as e}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"animation","description":"","frontmatter":{},"headers":[],"relativePath":"learn/css/animation.md"}'),o={name:"learn/css/animation.md"},i=e("",3),r=[i];function s(c,_,l,m,h,d){return t(),n("div",null,r)}const f=a(o,[["render",s]]);export{u as __pageData,f as default};

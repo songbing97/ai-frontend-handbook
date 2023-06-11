@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.c893c7c5.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/css/tailwind.md"}'),n={name:"learn/css/tailwind.md"};function r(s,c,o,i,d,l){return t(),a("div")}const m=e(n,[["render",r]]);export{_ as __pageData,m as default};

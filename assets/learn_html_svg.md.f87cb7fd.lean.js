@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,N as o}from"./chunks/framework.c893c7c5.js";const u=JSON.parse('{"title":"SVG","description":"","frontmatter":{},"headers":[],"relativePath":"learn/html/svg.md"}'),n={name:"learn/html/svg.md"},t=o("",50),l=[t];function p(r,i,c,y,h,d){return a(),e("div",null,l)}const F=s(n,[["render",p]]);export{u as __pageData,F as default};
