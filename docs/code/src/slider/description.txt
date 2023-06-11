@@ -1,0 +1,3 @@
+Q: Please implement a slider component with vue3 and composition api.
+Q: 请用vue3和composition api实现一个滑块组件。
+

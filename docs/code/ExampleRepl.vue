@@ -17,13 +17,10 @@ const store = new ReplStore({
 watchEffect(updateExample)
 onHashChange(updateExample)
 
-console.log(A)
-
 function updateExample() {
-  console.log(data)
   let hash = location.hash.slice(1)
   if (!data.hasOwnProperty(hash)) {
-    hash = 'hello-world'
+    hash = 'even'
     location.hash = `#${hash}`
   }
   store.setFiles(resolveSFCExample(data[hash], true))
@@ -44,7 +41,7 @@ onMounted(() => {
 
 <template>
   <div ref="heightProvider">
-    <Repl :showCompileOutput="false"
+    <Repl :showCompileOutput="false" :store="store"
       :clearConsole="false" />
   </div>
 </template>
@@ -75,6 +72,15 @@ onMounted(() => {
     height: calc(
       var(--vh, 0px) - var(--vt-nav-height) - 48px
     );
+  }
+}
+
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .curtain::before {
+    height: 0px !important;
+  }
+  .VPNavBar.has-sidebar .curtain {
+    height: 0px !important;
   }
 }
 

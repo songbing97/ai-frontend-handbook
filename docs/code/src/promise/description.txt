@@ -1,0 +1,2 @@
+Q: Please implement the polyfill for Promise.
+Q: 请实现Promise的polyfill。

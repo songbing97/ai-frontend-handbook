@@ -1,0 +1,4 @@
+Q: Implement a function that counts the number of times each character in a string.
+A: You can use an object to record the number of times each character appears.Each character that traverses the string, uses the character as the key of the object, and the number of times appears as the corresponding value.If the character already exists in the object, add the corresponding value of one; if the character is not in the object, add it to the object and set the value to 1.Finally return to the object of the statistical result.
+Q: 实现一个函数，统计一个字符串中每个字符出现的次数。
+A: 可以使用一个对象来记录每个字符出现的次数。遍历字符串的每个字符，将字符作为对象的键，出现次数作为对应的值。如果字符已经在对象中存在，则将其对应的值加一；如果字符不在对象中，则将其添加到对象中，并将值设置为1。最后返回统计结果的对象。

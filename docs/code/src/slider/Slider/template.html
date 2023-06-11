@@ -1,0 +1,5 @@
+<div class="slider" ref="slider">
+  <div class="track" :style="{ width: `${width}px` }">
+    <div class="thumb" :style="{ left: `${thumbPosition}px` }" @mousedown="startDrag" @touchstart="startDrag"></div>
+  </div>
+</div>

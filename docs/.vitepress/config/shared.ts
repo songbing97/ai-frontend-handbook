@@ -11,7 +11,7 @@ export const sharedConfig = defineConfig({
   description: META_DESCRIPTION,
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/songbing97' }
+      { icon: 'github', link: 'https://github.com/songbing97/chatgpt-interview-answers' }
     ],
 
     footer: {

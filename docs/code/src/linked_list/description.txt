@@ -1,0 +1,2 @@
+Q: 实现一个链表数据结构。
+Q: Implement a linked list data structure.

@@ -1,0 +1,4 @@
+Q: Check if a number is even.
+A: In JavaScript, we can determine whether a number is even by using the modulus calculation%.This is because the number of even 2 is always 0.
+Q: 判断一个数字是否为偶数。
+A: 在JavaScript中，我们可以通过使用模运算符%来判断一个数字是否为偶数。这是因为偶数除以2的余数总是0。

@@ -1,0 +1,2 @@
+Q: Implement a function that determines whether a string is a valid bracket match.
+Q: 实现一个函数，判断一个字符串是否是有效的括号匹配。

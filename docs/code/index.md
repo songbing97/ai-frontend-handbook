@@ -15,7 +15,7 @@ import { defineAsyncComponent } from 'vue'
 export default {
   components: {
     ExampleRepl: defineAsyncComponent({
-      loader: () => import('./ExampleRepl.vue'),
+      loader: () => import('/code/ExampleRepl.vue'),
     })
   }
 }
@@ -24,3 +24,9 @@ export default {
 <ClientOnly>
   <ExampleRepl />
 </ClientOnly>
+
+<style>
+.VPNavBar .curtain {
+	height: 0px !important;
+}
+</style>

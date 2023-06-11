@@ -1,0 +1,2 @@
+Q: Given an array, find duplicate elements in the array.
+Q: 给定一个数组，找出数组中的重复元素。

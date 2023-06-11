@@ -21,11 +21,11 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           collapsed: false,
           items: [
             {
-              text: 'Chapters',
+              text: 'Theory Chapters',
               link: '/learn/guide/chapters',
             },
             {
-              text: 'Concepts',
+              text: 'Basic Concepts of FE',
               link: '/learn/guide/concepts',
             }
           ]
@@ -101,7 +101,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           items: [{}]
         },
         {
-          text: 'devops',
+          text: 'Devops',
           link: '/learn/devops/index',
           collapsed: true,
           items: [{}]
@@ -113,7 +113,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           items: [{}]
         },
         {
-          text: 'mini app',
+          text: 'Mini app',
           link: '/learn/mini-app/index',
           collapsed: true,
           items: [{}]
@@ -241,7 +241,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           items: [{}]
         },
         {
-          text: 'mini app',
+          text: 'Mini app',
           link: '/interview/mini-app/index',
           collapsed: true,
           items: [{}]
@@ -263,17 +263,34 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           link: '/help-center'
         }
       ],
-      '/code': [
+      '/code/': [
         {
-          text: 'Basic',
+          text: '基础',
           items: [
             {
-              text: 'Hello World',
-              link: '/code/#hello-world'
+              text: '判断偶数',
+              link: '/code/#even'
+            },
+          ]
+        },
+        {
+          text: '字符串',
+          items: [
+            {
+              text: '回文',
+              link: '/code/#palindromic'
             },
             {
-              text: 'animation',
-              link: '/code/animation'
+              text: '统计次数',
+              link: '/code/#statistics'
+            },
+            {
+              text: '反转字符串',
+              link: '/code/#reverse_string'
+            },
+            {
+              text: '首字母大写',
+              link: '/code/#capitalize'
             }
           ]
         },

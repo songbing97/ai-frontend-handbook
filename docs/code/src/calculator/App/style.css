@@ -1,0 +1,32 @@
+.calculator {
+  display: grid;
+  width: 200px;
+  margin: auto;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.display {
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  height: 40px;
+  border: none;
+  background: #f0f0f0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}

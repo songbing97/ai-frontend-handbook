@@ -1,0 +1,4 @@
+Q: Implement a function to capitalize the first letter of each word in a string.
+A: You can use the split() method of the string to split the string into an array of words, then use a loop to traverse each word in the array, convert the first letter of each word to uppercase, and finally use the join() method of the array to combine the words The array is concatenated back into string form.
+Q: 实现一个函数，将一个字符串中的每个单词首字母大写。
+A: 可以使用字符串的split()方法将字符串分割成单词数组，然后使用循环遍历数组中的每个单词，将每个单词的首字母转换为大写形式，最后使用数组的join()方法将单词数组拼接回字符串形式。

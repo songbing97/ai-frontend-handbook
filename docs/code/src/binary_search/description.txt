@@ -1,0 +1,2 @@
+Q: Implement a binary search algorithm to find the target value in a sorted array.
+Q: 实现一个二分查找算法，查找一个有序数组中的目标值。

@@ -1,0 +1,4 @@
+Q: Implement a function that calculates the sum of an array.
+A: You can use the reduce() method to calculate the sum of an array.
+Q: 实现一个函数，计算一个数组的总和。
+A: 你可以使用reduce()方法来计算一个数组的总和。

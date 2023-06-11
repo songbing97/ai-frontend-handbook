@@ -1,0 +1,2 @@
+Q: Please implement the polyfill of the bind function.
+Q: 请实现bind函数的polyfill。

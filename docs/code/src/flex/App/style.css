@@ -1,0 +1,27 @@
+.a {
+  background-color: red;
+  left: 0px;
+  z-index: 1; /* change it 2 */
+}
+.b {
+  background-color: green;
+  left: 50px;
+  z-index: 1;
+}
+.c {
+  background-color: skyblue;
+  left: 30px;
+  top: 20px;
+  z-index: 20;
+}
+.d {
+  background-color: yellowgreen;
+  left: 30px;
+  top: 20px;
+  z-index: 5;
+}
+.absolute {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}

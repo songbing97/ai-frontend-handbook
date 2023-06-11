@@ -1,0 +1,27 @@
+.track {
+  width: 100%;
+  background-color: rgb(177, 171, 171);
+  border-radius: 9999px;
+  height: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.path {
+  background-color: rgb(85, 200, 114);
+  border-radius: 9999px;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.pointer {
+  position: absolute;
+  left: 100%;
+  transform: translateY(-4px) translateX(-50%);
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background-color: rgb(209, 42, 42);
+  cursor: pointer;
+}

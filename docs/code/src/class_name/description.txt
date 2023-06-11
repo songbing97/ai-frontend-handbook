@@ -1,0 +1,2 @@
+Q: Implement a function to determine whether an element contains a certain CSS class name.
+Q: 实现一个函数，判断一个元素是否含有某个CSS类名。

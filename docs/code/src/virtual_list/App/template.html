@@ -1,0 +1,14 @@
+<div>
+  totalHeight{{ totalHeight }}
+  start{{ start }}
+  visibleCount{{ visibleCount }}
+  offset{{ offset }}
+</div>
+<div ref="container" class="virtual-list" @scroll="onScroll">
+  <div class="spacer" :style="{ height: `${totalHeight}px` }"></div>
+  <div class="list-viewport" :style="{ transform: `translateY(${offset}px)` }">
+    <div v-for="item in visibleItems" :key="item.id" class="list-item">
+      {{ item.text }}
+    </div>
+  </div>
+</div>

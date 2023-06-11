@@ -1,0 +1,2 @@
+Q: Implement a class that represents a person's basic information, and contains methods to get and set attributes such as the person's name and age.
+Q: 实现一个类，表示一个人的基本信息，并包含方法获取和设置人的姓名、年龄等属性。

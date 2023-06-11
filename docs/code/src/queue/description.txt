@@ -1,0 +1,2 @@
+Q: Implement a queue data structure, and implement methods for enqueue, dequeue, and queue length.
+Q: 实现一个队列数据结构，并实现入队（enqueue）、出队（dequeue）和获取队列长度（length）的方法。

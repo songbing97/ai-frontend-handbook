@@ -1,0 +1,4 @@
+Q: Implement a function that reverses a string.
+A: A string can be reversed using the array's reverse() method. First, convert the string to a character array, then call the reverse() method to reverse the array, and finally convert the reversed array back to a string form through the join() method.
+Q: 实现一个函数，反转一个字符串。
+A: 可以使用数组的reverse()方法来反转一个字符串。首先，将字符串转换为字符数组，然后调用reverse()方法将数组反转，最后将反转后的数组通过join()方法转换回字符串形式。

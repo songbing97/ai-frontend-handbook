@@ -1,0 +1,21 @@
+.virtual-list {
+  width: 100%;
+  height: 300px; /* you may want to adjust this */
+  overflow-y: auto;
+  position: relative;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.list-viewport {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.list-item {
+  height: 20px;
+  line-height: 20px;
+}

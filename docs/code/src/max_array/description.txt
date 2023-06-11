@@ -1,0 +1,2 @@
+Q: Given an array, find the maximum and minimum values in the array.
+Q: 给定一个数组，找出数组中的最大值和最小值。

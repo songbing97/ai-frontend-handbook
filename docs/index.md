@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "AI Frontend Handbook"
   text: ""
-  tagline: An answer Collection of Frontend powered by ChatGPT.
+  tagline: The front-end knowledge base generated based on AI answers makes you the strongest front-end engineer.
   actions:
     - theme: brand
       text: Learn Now
@@ -15,13 +15,13 @@ hero:
       link: /interview/
 
 features:
-  - title: 适合不同层级
-    details: 内容涵盖初级到中高级
-  - title: 快速搞定各种概念
-    details: ChatGPT精彩又精简的回答
-  - title: 打工人专属
-    details: 最全面的面试内容收集
-  - title: 中英文双语
-    details: 双语对照，面试海外远程不再是难题
+  - title: Suitable for different levels
+    details: Covers content from beginner to advanced
+  - title: Quick grasp of various concepts
+    details: Questions and answers sourced from ChatGPT as much as possible
+  - title: Interview topics
+    details: Comprehensive collection of interview questions
+  - title: Coding topics
+    details: Covers almost all coding questions in one go
 ---
 

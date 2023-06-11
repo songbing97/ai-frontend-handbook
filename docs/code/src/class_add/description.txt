@@ -1,0 +1,2 @@
+Q: Implement a function to add the specified CSS class name to an element.
+Q: 实现一个函数，为一个元素添加指定的CSS类名。

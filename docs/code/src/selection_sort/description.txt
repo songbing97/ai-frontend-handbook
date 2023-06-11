@@ -1,0 +1,2 @@
+Q: Implement a selection sort algorithm to sort an array.
+Q: 实现一个选择排序算法，对一个数组进行排序。

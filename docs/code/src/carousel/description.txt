@@ -1,0 +1,3 @@
+Q: Realize a revolving lantern (carousel) component with vue3.
+Q: 请用vue3实现一个走马灯（轮播图）组件。
+

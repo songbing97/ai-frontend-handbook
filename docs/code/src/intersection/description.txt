@@ -1,0 +1,2 @@
+Q: Given two arrays, find the intersection of the two arrays.
+Q: 给定两个数组，找出两个数组的交集。

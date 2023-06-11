@@ -1,0 +1,2 @@
+Q: Please implement a function that can parse the parameters in the Url.
+Q: 请实现一个函数，可以解析Url中的各项参数。

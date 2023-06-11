@@ -1,0 +1,13 @@
+<div class="calculator">
+  <div class="display">{{ display }}</div>
+  <div class="buttons">
+    <button v-for="n in 9" :key="n" @click="append(n)">{{ n }}</button>
+    <button @click="clear">C</button>
+    <button @click="append(0)">0</button>
+    <button @click="calculate">=</button>
+    <button @click="append('+')">+</button>
+    <button @click="append('-')">-</button>
+    <button @click="append('*')">*</button>
+    <button @click="append('/')">/</button>
+  </div>
+</div>
