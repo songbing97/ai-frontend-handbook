@@ -6,12 +6,12 @@ export const META_DESCRIPTION = 'An answer Collection of Frontend powered by Cha
 
 export const sharedConfig = defineConfig({
   // deploy address
-  base: process.env.NODE_ENV === 'production' ? '/chatgpt-interview-answers/' : '',
+  base: process.env.NODE_ENV === 'production' ? '/ai-frontend-handbook/' : '',
   title: META_TITLE,
   description: META_DESCRIPTION,
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/songbing97/chatgpt-interview-answers' }
+      { icon: 'github', link: 'https://github.com/songbing97/ai-frontend-handbook' }
     ],
 
     footer: {
@@ -20,7 +20,7 @@ export const sharedConfig = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/songbing97/chatgpt-interview-answers/edit/master/docs/:path',
+      pattern: 'https://github.com/songbing97/ai-frontend-handbook/edit/master/docs/:path',
       text: 'Suggest changes to this page',
     },
 
