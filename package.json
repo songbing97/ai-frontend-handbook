@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "vitepress dev docs NODE_ENV=development",
-    "build": "vitepress build docs NODE_ENV=product",
+    "build": "vitepress build docs NODE_ENV=product && touch ./docs/.vitepress/dist/.nojekyll && gh-pages -d ./docs/.vitepress/dist/ -t true",
     "preview": "vitepress preview docs"
   },
   "dependencies": {
