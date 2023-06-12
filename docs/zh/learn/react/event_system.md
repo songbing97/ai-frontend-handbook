@@ -1,5 +1,10 @@
 # 事件系统（Event System）
 
+:::tip 注意
+可以注意几个函数和文件：
+1. addTrappedEventListener（节点绑定事件）、addEventBubbleListener（添加监听器）、createEventListenerWrapperWithPriority（创造回调函数）、createSyntheticEvent（合成事件）
+2. SyntheticEvent.js、ReactDOMEventListener.js
+  :::
 ## 什么是React事件系统？
 React 事件系统是 React 提供的一种机制，用于处理组件的事件交互。它基于原生 DOM 事件系统的基础上进行了封装和优化，提供了更方便和统一的事件处理方式。
 

@@ -47,3 +47,40 @@ React Fiber 的实现涉及到多个关键的源码模块，其中包括以下�
 5. **ReactFiberHostConfig.js**：这个模块定义了 React Fiber 的宿主配置，即与宿主环境相关的操作和配置。它提供了与平台相关的方法，如创建和操作 DOM 元素、调度异步任务等。
 
 以上是 React Fiber 的一些关键源码模块，它们共同工作，实现了增量式的组件更新和高效的任务调度。这些源码模块包含了 Fiber 数据结构、调和器、调度器、提交阶段的逻辑等重要部分。深入研究这些源码可以更好地理解 React Fiber 的工作原理和实现细节。
+
+
+## FiberNode 中的flags是什么作用？
+在 React 的 Fiber 架构中，每个 Fiber 节点都有一个 `flags` 属性。`flags` 属性是一个位字段（bitfield），用于跟踪 Fiber 节点的各种工作状态。每一位代表不同的状态或者效果。
+
+例如，这里有一些常见的 flags：
+
+- Placement：这表示 Fiber 节点是一个新节点，需要被插入到 DOM 中。
+- Update：这表示 Fiber 节点的 props 发生了改变，需要进行更新。
+- Deletion：这表示 Fiber 节点被删除，需要从 DOM 中移除。
+- ChildDeletion：这表示 Fiber 节点的一个或多个子节点被删除。
+- HasEffect：这表示 Fiber 节点有一些副作用需要处理，例如执行生命周期方法或者 Hook。
+
+React 在执行渲染和更新工作时，会根据 `flags` 属性来确定需要对每个 Fiber 节点进行哪些操作。例如，如果一个 Fiber 节点的 `flags` 属性包含 `Update`，那么 React 就知道需要对这个节点进行更新。
+
+然而，需要注意的是，`flags` 属性是 React 的内部实现细节，对于大多数开发者来说，并不需要了解。当你在使用 React 时，只需要了解和使用其公开的 API，如 JSX、组件、props、state、Hooks 等。
+
+## FiberNode中有哪些关键的属性，它们的作用是什么？
+Fiber 是 React 的一个内部数据结构，用于跟踪和管理组件的状态和副作用。每一个 Fiber 对象（也被称为 Fiber Node）代表一个 React 组件，它包含了一些描述组件状态和行为的属性。以下是一些在 FiberNode 中关键的属性：
+
+1. **type**：组件的类型。对于类组件，这将是类本身；对于函数组件，这将是函数本身；对于 DOM 元素，这将是元素的字符串标签。
+
+2. **child**、**sibling**、**return**：这些属性形成了 Fiber 树的结构。`child` 指向组件的第一个子组件，`sibling` 指向组件的下一个兄弟组件，`return` 指向组件的父组件。
+
+3. **alternate**：指向当前 Fiber 节点的替代版本，也就是在上一次渲染中的 Fiber 节点。React 通过比较 alternate 和当前 Fiber 节点来判断组件是否有变化。
+
+4. **stateNode**：对于类组件，这是类组件的实例；对于 DOM 元素，这是 DOM 节点本身。
+
+5. **pendingProps** 和 **memoizedProps**：分别表示新的将要应用的属性和上一次渲染时的属性。React 通过比较这两者来判断 props 是否有变化。
+
+6. **memoizedState**：组件保存的状态。对于类组件，这是 `this.state`；对于使用了 `useState` 或 `useReducer` 的函数组件，这是一个链表，包含了所有的 state 和更新函数。
+
+7. **updateQueue**：存储了组件的状态更新和副作用。对于使用了 `useState` 或 `useReducer` 的组件，这是一个队列，包含了所有的状态更新；对于使用了 `useEffect` 或 `useLayoutEffect` 的组件，这是一个链表，包含了所有的副作用。
+
+8. **flags**：一个位字段，表示 Fiber 节点需要进行的工作类型，例如插入（Placement）、更新（Update）或删除（Deletion）等。
+
+然而，需要注意的是，这些属性都是 React 的内部实现细节，并不是公开的 API。在使用 React 开发时，你并不需要直接与 FiberNode 交互，也不需要关心它们的实现细节。你只需要了解并使用 React 的公共 API，如 JSX、组件、props、state、Hooks 等。

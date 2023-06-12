@@ -422,7 +422,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
               link: '/zh/learn/react/fiber',
             },
             {
-              text: '调和（Reconciliation）',
+              text: '调和器（Reconciler）',
               link: '/zh/learn/react/reconciliation',
             },
             {
