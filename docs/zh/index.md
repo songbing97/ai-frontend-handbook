@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 学习Now
-      link: /zh/learn/
+      link: /zh/learn/index0
     - theme: alt
       text: 面试Now
-      link: /zh/interview/
+      link: /zh/interview/index0
     - theme: alt
       text: 编码Now
       link: /zh/code/
