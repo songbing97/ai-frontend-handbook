@@ -2,8 +2,6 @@
 
 - [网络性能优化](optimize.md)
 - [网络安全](security.md)
-- [网络协议高级](protocols_advanced.md)
-- [WebSocket进阶](web_socket_advanced.md)
 - [服务端知识](server.md)
 - [移动网络](mobile.md)
 - [WebRTC](web_rtc.md)

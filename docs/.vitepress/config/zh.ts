@@ -391,10 +391,6 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
               link: '/zh/learn/vue/compiler',
             },
             {
-              text: '实例化',
-              link: '/zh/learn/vue/instance',
-            },
-            {
               text: '组件系统',
               link: '/zh/learn/vue/component',
             },
@@ -461,16 +457,16 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
               link: '/zh/learn/network/http',
             },
             {
-              text: '网络协议',
-              link: '/zh/learn/network/protocols',
-            },
-            {
-              text: 'DNS',
+              text: 'DNS & CDN',
               link: '/zh/learn/network/dns',
             },
             {
               text: 'WebSockets',
               link: '/zh/learn/network/web_sockets',
+            },
+            {
+              text: 'TCP',
+              link: '/zh/learn/network/tcp',
             },
             {
               text: '高级篇',
@@ -484,14 +480,6 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 {
                   text: '网络安全',
                   link: '/zh/learn/node/advanced/security',
-                },
-                {
-                  text: '网络协议高级',
-                  link: '/zh/learn/node/advanced/protocols_advanced',
-                },
-                {
-                  text: 'WebSocket进阶',
-                  link: '/zh/learn/node/advanced/web_socket_advanced',
                 },
                 {
                   text: '服务端知识',
