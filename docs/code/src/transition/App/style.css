@@ -1,0 +1,94 @@
+.container {
+  height: 100%;
+  padding: 8px;
+  background-color: antiquewhite;
+  border: 2px solid skyblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+}
+
+.width {
+  width: 50px;
+  background-color: blue;
+  transition: width 1000ms linear 100ms;
+}
+.width:hover {
+  width: 200px;
+  transition: width 1000ms linear 100ms;
+}
+
+.color {
+  color: red;
+  background-color: rgb(29, 138, 120);
+  transition: color 1000ms ease 200ms;
+}
+.color:hover {
+  color: green;
+  transition: color 1000ms ease 200ms;
+}
+
+.bg-color {
+  background-color: rgb(28, 159, 107);
+  transition: background-color 1000ms ease-in 200ms;
+}
+.bg-color:hover {
+  background-color: rgb(227, 227, 16);
+  transition: background-color 1000ms ease-in 200ms;
+}
+
+.transform {
+  transform: translateX(20%);
+  background-color: rgb(5, 125, 190);
+  transition: transform 1000ms ease-out 200ms;;
+}
+.transform:hover {
+  transform: translateX(100%);
+  transition: transform 1000ms ease-out 200ms;;
+}
+
+.padding {
+  padding: 10px;
+  background-color: blue;
+  transition: padding 1000ms ease-in-out 200ms;
+}
+.padding:hover {
+  padding: 40px;
+  transition: padding 1000ms ease-in-out 200ms;
+}
+
+.opacity {
+  opacity: 0.5;
+  background-color: rgb(29, 138, 120);
+  transition: opacity 1000ms ease-in-out 200ms;
+}
+.opacity:hover {
+  opacity: 1;
+  transition: opacity 1000ms ease-in-out 200ms;
+}
+
+.border {
+  border: 2px solid;
+  background-color: rgb(5, 125, 190);
+  transition: border-width 1000ms ease-in-out 200ms;
+}
+.border:hover {
+  border-width: 10px;
+  transition: border-width 1000ms ease-in-out 200ms;
+}
+
+.radius {
+  border-radius: 10px;
+  background-color: rgb(190, 5, 184);
+  transition: border-radius 1000ms ease-in-out 200ms;
+}
+.radius:hover {
+  border-radius: 40px;
+  transition: border-radius 1000ms ease-in-out 200ms;
+}

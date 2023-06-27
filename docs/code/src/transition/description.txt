@@ -1,0 +1,8 @@
+Q: Transition
+  1. The transition property is an abbreviation for four properties: transition-property, transition-duration, transition-timing-function, and transition-delay.
+  2. Supported properties and values: color, border, border-radius, transform, opacity, box-shadow, width, padding.
+  3. Commonly used Bezier curve functions: ease, linear, ease-in, ease-out, ease-in-out.
+Q: 过渡
+  1. transition属性是四个属性的缩写：transition-property -duration -timing-function -delay
+  2，支持的属性和值：color border border-radius transform opacity box-shadow width padding 
+  3. 常用的贝塞尔曲线函数：ease linear ease-in ease-out ease-in-out

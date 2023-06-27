@@ -527,10 +527,6 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
               link: '/zh/learn/browser/security',
             },
             {
-              text: '浏览器开发者工具',
-              link: '/zh/learn/browser/devtools',
-            },
-            {
               text: '浏览器兼容性',
               link: '/zh/learn/browser/compatible',
             },
@@ -1460,6 +1456,10 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             {
               text: '滤镜',
               link: '/zh/code/#filter'
+            },
+            {
+              text: '变形',
+              link: '/zh/code/#transform'
             },
           ]
         },

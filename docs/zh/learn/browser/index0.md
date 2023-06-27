@@ -6,7 +6,6 @@
 - [浏览器的缓存机制](cache.md)
 - [跨域通信](cros.md)
 - [浏览器安全性](security.md)
-- [浏览器开发者工具](devtools.md)
 - [浏览器兼容性](compatible.md)
 - [网络（高级篇）](./advanced/index0.md)
 

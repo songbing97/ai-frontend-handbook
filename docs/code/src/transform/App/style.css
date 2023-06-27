@@ -1,0 +1,121 @@
+.container {
+  height: 100%;
+  padding: 8px;
+  background-color: antiquewhite;
+  border: 2px solid skyblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+}
+
+.rotate30 {
+  /* 正数为顺时针 */
+  transform: rotate(30deg); 
+  background-color: rgb(116, 200, 110);
+}
+
+.rotate-30 {
+  /* 负数为逆时针 */
+  transform: rotate(-30deg); 
+  background-color: rgb(111, 198, 165);
+}
+
+.rotateX30 {
+  /* 负数为逆时针 */
+  transform: rotateX(30deg); 
+  background-color: rgb(201, 201, 74);
+}
+
+.rotateX-30 {
+  /* 负数为逆时针 */
+  transform: rotateX(-30deg); 
+  background-color: rgb(152, 177, 29);
+}
+
+.rotateY30 {
+  /* 负数为逆时针 */
+  transform: rotateY(30deg); 
+  background-color: rgb(65, 85, 199);
+}
+
+.rotateY-30 {
+  /* 负数为逆时针 */
+  transform: rotateY(-30deg); 
+  background-color: rgb(27, 14, 143);
+}
+
+.rotate3d {
+  transform: rotate3d(1, 1, -0.5, 45deg); 
+  background-color: rgb(191, 43, 14);
+}
+
+.translate {
+  transform: translate(50%, 50%);
+  background-color: rgb(111, 198, 165);
+}
+
+.translateX {
+  transform: translateX(50%);
+  background-color: rgb(152, 177, 29);
+}
+
+.translateY {
+  transform: translateY(50%);
+  background-color: rgb(27, 14, 143);
+}
+
+.translateZ {
+  transform: translateZ(50%);
+  background-color: rgb(191, 43, 14);
+}
+
+.translate3d {
+  transform: translate3d(50%, 50%, 50px);
+  background-color: rgb(147, 14, 191);
+}
+
+.scale {
+  transform: scale(0.5, 2);
+  background-color: rgb(111, 198, 165);
+}
+
+.scaleX {
+  transform: scaleX(2);
+  background-color: rgb(152, 177, 29);
+}
+
+.scaleY {
+  transform: scaleY(0.5);
+  background-color: rgb(27, 14, 143);
+}
+
+.scaleZ {
+  transform: scaleZ(2);
+  background-color: rgb(191, 43, 14);
+}
+
+.scale3d {
+  transform: scale3d(2, 0.5, 0.5);
+  background-color: rgb(147, 14, 191);
+}
+
+.skew {
+  transform: skew(30deg, 30deg);
+  background-color: rgb(111, 198, 165);
+}
+
+.skewX {
+  transform: skewX(30deg);
+  background-color: rgb(152, 177, 29);
+}
+
+.skewY {
+  transform: skewY(30deg);
+  background-color: rgb(27, 14, 143);
+}

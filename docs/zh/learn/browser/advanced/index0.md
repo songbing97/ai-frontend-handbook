@@ -1,12 +1,8 @@
 # 网络（高级篇）
 
-- [性能优化](optimize.md)
-- [渲染机制](render_mechanism.md)
 - [Web Worker](web_worker.md)
 - [WebAssembly](web_assembly.md)
-- [浏览器存储机制的深入理解](storage_advanced.md)
 - [浏览器内存管理](memory.md)
-- [浏览器扩展和API](extension.md)
 - [网络（基础篇）](../index0.md)
 
 ## 对于前端工程师来说，浏览器有哪些高级知识点？

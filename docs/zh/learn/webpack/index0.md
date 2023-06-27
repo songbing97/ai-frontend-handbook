@@ -1,5 +1,9 @@
 # Webpack（基础篇）
 
+:::tip 提示
+- Webpack属于一个高级打包工具，有官方网站提供中文教程https://webpack.docschina.org/concepts/。
+- 本概念学习旨在探究Webpack的运行逻辑，学习源码细节。
+  :::
 - [入口和出口](entry_output.md)
 - [加载器（Loaders）](loader.md)
 - [插件（Plugins）](plugin.md)
@@ -46,32 +50,48 @@ Webpack的基础内容包括以下几个方面：
 以上是Webpack的基础内容，掌握这些基础知识可以帮助你开始使用Webpack进行模块化开发和前端资源管理。随着深入学习和实践，你可以探索更多Webpack的高级功能和技巧，以满足更复杂的项目需求。
 
 
-## How to learn Webpack?
-To learn Webpack, you can follow these steps:
+## Webpack源码分为哪几个部分？
+Webpack源码可以大致分为以下几个主要部分：
 
-1. Read the official Webpack documentation: The Webpack documentation is a great resource to get started with the tool. It provides a comprehensive guide that covers everything from installation to advanced configuration.
+1. 核心：Webpack的核心部分包含了整个构建流程的实现，负责模块解析、依赖管理、编译、打包和输出等功能。核心部分的代码位于`lib`目录下，其中包括`WebpackOptionsApply.js`、`Compilation.js`、`Compiler.js`等关键文件。
 
-2. Build a simple Webpack project: Creating a basic project with Webpack will help you understand how it works and the various configuration options available. You can follow a tutorial or create your own project from scratch.
+2. 打包工具：Webpack的打包工具负责将源代码和相关依赖转换为可供浏览器执行的最终输出文件。打包工具部分的代码位于`lib`目录下的`pack`目录中，其中包括`JavascriptParser.js`、`Chunk.js`、`Module.js`等文件。
 
-3. Practice with more complex projects: Try building more complex projects with Webpack, such as a React application or a multi-page application. This will help you understand how to configure Webpack for different use cases.
+3. 插件系统：Webpack的插件系统允许开发者扩展和定制Webpack的功能。Webpack的插件系统基于事件发布/订阅模式，通过钩子函数实现插件的注入和执行。插件系统相关的代码位于`lib`目录下的`plugins`目录中，其中包括`SyncHook.js`、`AsyncSeriesHook.js`等文件。
 
-4. Join the Webpack community: Join online communities such as forums, Slack channels, or Reddit to stay up-to-date with the latest news and trends in the Webpack world. You can also ask questions and get feedback on your projects.
+4. 模块解析：Webpack的模块解析功能负责解析各种类型的模块依赖关系。模块解析相关的代码位于`lib`目录下的`ModuleFactory.js`、`NormalModuleFactory.js`等文件。
 
-5. Experiment with plugins and loaders: Webpack has a vast ecosystem of plugins and loaders that extend its functionality. Experiment with these tools to optimize your project's performance and improve your development experience.
+5. 工具函数和辅助类：Webpack源码中还包含了许多工具函数和辅助类，用于处理路径、文件系统操作、编译器选项解析等。这些工具函数和辅助类的代码位于`lib`目录下的`util`和`javascript`目录中。
 
-## What are the files that implement the core functions in the webpack source code?
-Webpack is a complex tool with many core functions, and the implementation of these functions is spread across many files in the Webpack source code. Here are some of the key files that implement the core functions of Webpack:
+需要注意的是，Webpack源码的结构和组织可能会根据版本和具体的实现细节有所变化。建议参考具体版本的Webpack源码仓库中的目录结构和文件组织来进行更详细的了解。
 
-1. lib/webpack.js: This file exports the main Webpack module and provides an API for running the Webpack compiler.
+## Webpack工作原理是什么？
+Webpack的工作原理可以简要概括为以下几个步骤：
 
-2. lib/Compiler.js: This file defines the Compiler class, which represents the core of the Webpack compilation process.
+1. 读取配置：Webpack首先读取项目根目录下的配置文件（默认为webpack.config.js），该配置文件包含了Webpack构建的各种配置选项，如入口文件、输出路径、模块解析规则、插件等。
 
-3. lib/NormalModuleFactory.js: This file defines the NormalModuleFactory class, which is responsible for creating NormalModules from input files.
+2. 解析模块依赖：Webpack根据配置中的入口文件（entry）开始解析模块依赖关系。Webpack使用模块解析器根据配置中的模块解析规则（resolve）来定位并解析模块的路径。
 
-4. lib/Parser.js: This file defines the Parser class, which is used to parse input files and generate an abstract syntax tree (AST) that can be processed by Webpack.
+3. 递归构建依赖图：Webpack通过递归的方式，从入口模块开始，根据模块间的依赖关系构建一个依赖图（dependency graph）。它会遍历每个模块，解析并收集模块的依赖，包括JavaScript文件、CSS文件、图片文件等。
 
-5. lib/Template.js: This file defines the Template class, which provides a set of utility methods for generating output files during the compilation process.
+4. 加载和转换模块：Webpack会根据模块的类型，使用相应的加载器（loader）来加载和转换模块。加载器可以对模块进行预处理、转换文件格式、执行代码等操作。Webpack支持链式使用多个加载器，以适应不同的需求。
 
-6. lib/util/createHash.js: This file defines the createHash function, which is used throughout the Webpack codebase to generate unique hash values.
+5. 打包生成输出：在构建过程中，Webpack会根据配置中的输出路径（output path）和输出文件名（output filename）等选项，将打包后的模块转换为一个或多个输出文件。输出文件通常是一个或多个JavaScript文件，其中包含了整个项目的代码和依赖关系。
 
-Note that this is not an exhaustive list, and there are many other files in the Webpack source code that implement important functionality such as plugin and loader support, dependency resolution, and optimization strategies.
+6. 优化和压缩：Webpack提供了各种优化功能，例如代码分割（code splitting）、懒加载（lazy loading）、缓存等。它还可以通过插件进行代码压缩、混淆、Tree Shaking等优化操作，以减小文件体积、提升加载速度和运行性能。
+
+7. 输出结果：Webpack会将最终生成的输出文件保存到指定的输出路径中。生成的文件可以通过HTTP服务器提供给浏览器进行访问和加载。
+
+通过以上步骤，Webpack将多个模块和依赖关系打包为一个或多个最终的输出文件，使得前端应用程序能够在浏览器中运行。Webpack的工作原理强调了模块化开发和构建过程的可配置性，使开发者能够灵活地构建复杂的前端应用。
+
+## Webpack5核心源码在哪几个文件和文件夹里？
+Webpack 5的核心源码位于Webpack源码仓库的以下几个关键文件和文件夹中：
+
+1. `lib`目录：Webpack的核心源码位于`lib`目录中的多个文件和文件夹中。其中，`lib/webpack.js`文件是Webpack的入口文件，负责创建和启动Webpack编译器。`lib/Compilation.js`文件包含了Webpack的编译流程和编译器的核心逻辑。`lib/Compiler.js`文件定义了Webpack的编译器类，负责管理编译过程的各个阶段。
+
+2. `lib/webpack`目录：`lib/webpack`目录是Webpack的核心模块目录，包含了实现Webpack功能的多个模块。其中，`lib/webpack/NormalModule.js`文件定义了Webpack的普通模块类，负责解析和处理JavaScript等普通模块。`lib/webpack/Chunk.js`文件定义了Webpack的代码块类，用于存储和管理模块的代码块。
+
+3. `lib/compilation`目录：`lib/compilation`目录包含了Webpack的编译过程相关的模块。其中，`lib/compilation/Module.js`文件定义了Webpack的模块类，用于表示和管理不同类型的模块。`lib/compilation/Dependency.js`文件定义了Webpack的依赖类，用于表示和管理模块间的依赖关系。
+
+以上是Webpack 5核心源码的一些关键文件和文件夹，负责实现Webpack的核心功能和编译流程。在实际学习Webpack源码时，建议查看Webpack源码仓库中的目录结构和文件组织，以获得更详细的了解和导航。
+
