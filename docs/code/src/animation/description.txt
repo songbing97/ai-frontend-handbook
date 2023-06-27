@@ -1,0 +1,6 @@
+Q: Animation
+  1. Animation has several key points: @keyframes, animation-name, *-duration, *-iteration-count, *-delay.
+  2. Firstly, the @keyframes rule defines the keyframes of the animation, including the from, to, and various percentage-based keyframes. These keyframes are combined to form an animation. animation-name defines the multiple animations to be used. animation-delay defines the interval at which the animation executes. animation-duration defines the duration of the animation. animation-iteration-count defines the number of times the animation is executed.
+A: 动画
+  1. 动画有几个关键点：@keyframes animation-name *-duration *-iteration-count *-delay
+  2，首先由@keyframes定义from n% to各节点的关键帧，由它们组成一个动画， animation-name定义需要使用的多个动画 *-delay定义执行的间歇 *-duration定义执行时间长短 *-iteration-count定义执行次数。

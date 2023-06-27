@@ -1,0 +1,52 @@
+.ball1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 9999px;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 200%);
+  }
+  50% {
+    transform: translate(200%, 200%);
+  }
+  75% {
+    transform: translate(200%, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+
+.ball2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(100px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px);
+  }
+}
+
