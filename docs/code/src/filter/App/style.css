@@ -1,0 +1,95 @@
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blur {
+  filter: blur(2px)
+}
+
+.opacity {
+  filter: opacity(50%);
+}
+
+.drop-shadow {
+  filter: drop-shadow(5px 5px 5px)
+}
+
+.grayscale {
+  filter: grayscale(80%)
+}
+
+.sepia {
+  filter: sepia(70%);
+}
+
+.invert {
+  filter: invert(100%)
+}
+
+.hue-rotate {
+  filter: hue-rotate(180deg)
+}
+
+.brightness {
+  filter: brightness(30%)
+}
+
+.contrast {
+  filter: contrast(30%)
+}
+
+.saturate {
+  filter: saturate(30%)
+}
+
+img+img {
+  position: absolute;
+  left: 30px;
+}
+
+.relative {
+  position: relative;
+  margin-right: 30px;
+}
+
+.multiply > img{
+  mix-blend-mode: multiply;
+}
+
+.screen > img{
+  mix-blend-mode: screen;
+}
+
+.overlay > img{
+  mix-blend-mode: overlay;
+}
+
+.darken > img{
+  mix-blend-mode: darken;
+}
+
+.lighten > img{
+  mix-blend-mode: lighten;
+}
+
+.difference > img{
+  mix-blend-mode: difference;
+}
+
+.exclusion > img{
+  mix-blend-mode: exclusion;
+}
+
+.hard-light > img{
+  mix-blend-mode: hard-light;
+}
+
+.soft-light > img{
+  mix-blend-mode: soft-light;
+}

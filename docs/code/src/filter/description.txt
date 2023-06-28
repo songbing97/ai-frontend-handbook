@@ -1,0 +1,6 @@
+Q: Animation
+  1. Animation has several key points: @keyframes, animation-name, *-duration, *-iteration-count, *-delay.
+  2. Firstly, the @keyframes rule defines the keyframes of the animation, including the from, to, and various percentage-based keyframes. These keyframes are combined to form an animation. animation-name defines the multiple animations to be used. animation-delay defines the interval at which the animation executes. animation-duration defines the duration of the animation. animation-iteration-count defines the number of times the animation is executed.
+A: 滤镜、混合
+  1. 滤镜可以分为基本、颜色、显示、SVG几种
+  2，混合
