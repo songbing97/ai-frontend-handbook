@@ -142,9 +142,34 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'Behavior',
-          link: '/interview/behavior/index',
+          link: '/interview/behavior/index0',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'Leadership and Teamwork',
+              link: '/interview/behavior/teamwork',
+            },
+            {
+              text: 'Problem Solving and Decision Making',
+              link: '/interview/behavior/resolve',
+            },
+            {
+              text: 'Collaboration and Communication',
+              link: '/interview/behavior/collaboration',
+            },
+            {
+              text: 'Adaptability and Learning',
+              link: '/interview/behavior/adaptability',
+            },
+            {
+              text: 'Self-Development and Growth',
+              link: '/interview/behavior/growth',
+            },
+            {
+              text: 'Salary',
+              link: '/interview/behavior/salary',
+            },
+          ]
         },
         {
           text: 'System Design',

@@ -13,12 +13,12 @@ I'm sorry, but I cannot provide a definitive list of the 100 most common intervi
 10. How do you stay current with new front-end technologies?
 # Interview Chapters
 
-- [Behavior](behavior/index.md)
+- [Behavior](behavior/index0.md)
 - [System Design](system-design/index.md)
 - [Judgement](judgement/index.md)
 - [HTML](html/index.md)
 - [CSS](css/index.md)
-- [JavaScript](javascript/index.md)
+- [JavaScript](javascript/index0.md)
 - [Node.js](node/index.md)
 - [Webpack](webpack/index.md)
 - [Vue](vue/index.md)
