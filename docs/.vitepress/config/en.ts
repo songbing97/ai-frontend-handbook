@@ -213,9 +213,42 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'JavaScript',
-          link: '/interview/javascript/index',
+          link: '/interview/javascript/index0',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'Core JavaScript Concepts',
+              link: '/interview/javascript/core'
+            },
+            {
+              text: 'Data Types and Variables',
+              link: '/interview/javascript/data_type'
+            },
+            {
+              text: 'Arrays and Objects',
+              link: '/interview/javascript/object'
+            },
+            {
+              text: 'ES6 Features',
+              link: '/interview/javascript/es6'
+            },
+            {
+              text: 'Functions and Scope',
+              link: '/interview/javascript/function'
+            },
+            {
+              text: 'Modules and Bundlers',
+              link: '/interview/javascript/module'
+            },
+            {
+              text: 'Browser APIs and Events',
+              link: '/interview/javascript/browser'
+            },
+            {
+              text: 'Async Programming',
+              link: '/interview/javascript/async'
+            },
+          ]
         },
         {
           text: 'Node.js',

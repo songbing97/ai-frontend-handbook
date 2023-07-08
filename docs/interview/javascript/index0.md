@@ -1,5 +1,14 @@
 # JavaScript
 
+- [Core JavaScript Concepts](core.md)
+- [Data Types and Variables](data_type.md)
+- [Arrays and Objects](object.md)
+- [ES6 Features](es6.md)
+- [Functions and Scope](function.md)
+- [Modules and Bundlers](module.md)
+- [Browser APIs and Events](browser.md)
+- [Async Programming](async.md)
+
 ## I'm about to prepare for the interview, please give the most common 50 JavaScript interview questions and categorize them.
 Sure! Here are 50 commonly asked JavaScript interview questions, categorized into different topics:
 
