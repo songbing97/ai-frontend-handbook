@@ -185,31 +185,45 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'HTML',
-          link: '/interview/html/index',
+          link: '/interview/html/index0',
           collapsed: true,
           items: [
             {
-              text: 'Tag',
-              link: '/interview/html/tag',
+              text: 'HTML Basics',
+              link: '/interview/html/basic',
             },
             {
-              text: 'Advanced',
-              link: '/interview/html/advanced/index',
-              collapsed: false,
-              items: [
-                {
-                  text: 'SEO',
-                  link: '/interview/html/advanced/seo'
-                }
-              ]
+              text: 'HTML Structure and Semantics',
+              link: '/interview/html/semantics',
             }
           ]
         },
         {
           text: 'CSS',
-          link: '/interview/css/index',
+          link: '/interview/css/index0',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'CSS Basics',
+              link: '/interview/css/basic'
+            },
+            {
+              text: 'CSS Layout and Positioning',
+              link: '/interview/css/layout'
+            },
+            {
+              text: 'CSS Responsive Design',
+              link: '/interview/css/responsive'
+            },
+            {
+              text: 'CSS Transitions and Animations',
+              link: '/interview/css/transition'
+            },
+            {
+              text: 'CSS Preprocessors and Tools',
+              link: '/interview/css/tool'
+            },
+          ]
         },
         {
           text: 'JavaScript',
