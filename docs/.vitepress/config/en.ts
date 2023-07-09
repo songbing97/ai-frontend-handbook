@@ -98,7 +98,28 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           text: 'Browser',
           link: '/learn/browser/index',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'General Browser Concepts',
+              link: '/learn/browser/concepts',
+            },
+            {
+              text: 'HTTP and Network Communication',
+              link: '/learn/browser/network',
+            },
+            {
+              text: 'Browser JavaScript APIs',
+              link: '/learn/browser/api',
+            },
+            {
+              text: 'Browser Performance and Optimization',
+              link: '/learn/browser/optimization',
+            },
+            {
+              text: 'Browser Security',
+              link: '/learn/browser/security',
+            },
+          ]
         },
         {
           text: 'Devops',
@@ -274,19 +295,110 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           text: 'Webpack',
           link: '/interview/webpack/index',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'Webpack Basics',
+              link: '/interview/webpack/basic',
+            },
+            {
+              text: 'Webpack Configuration',
+              link: '/interview/webpack/configuration',
+            },
+            {
+              text: 'Webpack DevServer',
+              link: '/interview/webpack/dev_server',
+            },
+            {
+              text: 'Webpack Loaders',
+              link: '/interview/webpack/loaders',
+            },
+            {
+              text: 'Webpack Plugins',
+              link: '/interview/webpack/plugins',
+            },
+            {
+              text: 'Webpack Optimization',
+              link: '/interview/webpack/optimization',
+            },
+            {
+              text: 'Webpack and Other Technologies',
+              link: '/interview/webpack/other',
+            },
+            {
+              text: 'Webpack DevTools',
+              link: '/interview/webpack/devtools',
+            },
+          ]
         },
         {
           text: 'Vue',
           link: '/interview/vue/index',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'Vue Basics',
+              link: '/interview/vue/basic',
+            },
+            {
+              text: 'Vue Components',
+              link: '/interview/vue/component',
+            },
+            {
+              text: 'Vue Router',
+              link: '/interview/vue/router',
+            },
+            {
+              text: 'VueX',
+              link: '/interview/vue/vuex',
+            },
+            {
+              text: 'Vue Directives and Filters',
+              link: '/interview/vue/directive',
+            },
+            {
+              text: 'Vue Testing',
+              link: '/interview/vue/test',
+            },
+            {
+              text: 'Vue Performance Optimization',
+              link: '/interview/vue/optimization',
+            },
+          ]
         },
         {
           text: 'React',
           link: '/interview/react/index',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'React Basics',
+              link: '/interview/react/basic',
+            },
+            {
+              text: 'React Component Lifecycle',
+              link: '/interview/react/lifecycle',
+            },
+            {
+              text: 'React Hooks',
+              link: '/interview/react/hook',
+            },
+            {
+              text: 'React Router',
+              link: '/interview/react/router',
+            },
+            {
+              text: 'React Redux',
+              link: '/interview/react/redux',
+            },
+            {
+              text: 'React Performance Optimization',
+              link: '/interview/react/optimization',
+            },
+            {
+              text: 'React Testing',
+              link: '/interview/react/test',
+            },
+          ]
         },
         {
           text: 'Network',
@@ -310,7 +422,32 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           text: 'Algorithm',
           link: '/interview/algorithm/index',
           collapsed: true,
-          items: [{}]
+          items: [
+            {
+              text: 'Array Manipulation',
+              link: '/interview/algorithm/array',
+            },
+            {
+              text: 'String Manipulation',
+              link: '/interview/algorithm/string',
+            },
+            {
+              text: 'Sorting and Searching',
+              link: '/interview/algorithm/sorting',
+            },
+            {
+              text: 'Data Structures',
+              link: '/interview/algorithm/structure',
+            },
+            {
+              text: 'Recursion and Backtracking',
+              link: '/interview/algorithm/recursion',
+            },
+            {
+              text: 'Graph Algorithms',
+              link: '/interview/algorithm/graph',
+            },
+          ]
         },
         {
           text: 'Mini app',
