@@ -293,7 +293,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'Webpack',
-          link: '/interview/webpack/index',
+          link: '/interview/webpack/index0',
           collapsed: true,
           items: [
             {
@@ -332,7 +332,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'Vue',
-          link: '/interview/vue/index',
+          link: '/interview/vue/index0',
           collapsed: true,
           items: [
             {
@@ -367,7 +367,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'React',
-          link: '/interview/react/index',
+          link: '/interview/react/index0',
           collapsed: true,
           items: [
             {
@@ -420,7 +420,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: 'Algorithm',
-          link: '/interview/algorithm/index',
+          link: '/interview/algorithm/index0',
           collapsed: true,
           items: [
             {

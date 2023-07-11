@@ -6,9 +6,8 @@ const currentState = ref(0);
 let fatherDom = {};
 
   
- const handleMouseUp = () => {
-   window.removeEventListener('mousemove', handleMouseMove)
-   
+const handleMouseUp = () => {
+  window.removeEventListener('mousemove', handleMouseMove)
 }
 
 const handleMouseDown = (e) => {
@@ -17,7 +16,6 @@ const handleMouseDown = (e) => {
 }
 
 const handleMouseMove = (e) => {
-  console.log(e.x)
   currentState.value = e.x;
   let temp = Math.ceil(( 100 * currentState.value - fatherDom.x) / fatherDom.width)
   if (temp > 100) {
